@@ -12,8 +12,8 @@ class Hash
           #binding.pry
             if arg_value == argue
              monkey_patch_array << arg_key
+            end
         end
     end
-  end
   end
 end
