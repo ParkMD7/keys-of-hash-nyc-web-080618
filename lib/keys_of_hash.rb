@@ -9,7 +9,7 @@ class Hash
     arguments.each do |arg|
       #binding.pry
         self.each do |arg_key, arg_value|
-          binding.pry
+          #binding.pry
         end
     end
   end  
