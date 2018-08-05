@@ -15,7 +15,7 @@ class Hash
             end
         end
     end
-  end  
   end
   monkey_patch_array
+  end
 end
