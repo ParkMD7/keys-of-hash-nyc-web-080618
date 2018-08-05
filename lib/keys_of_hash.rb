@@ -12,10 +12,10 @@ class Hash
           #binding.pry
             if arg_value == arg
               monkey_patch_array << arg_key
+              monkey_patch_array
             end
         end
     end
   end
-  monkey_patch_array
   end
 end
