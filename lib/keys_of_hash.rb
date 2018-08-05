@@ -7,7 +7,7 @@ class Hash
     
     self.each do |arg_key, arg_value|
       #binding.pry
-        arguements.each do |argue|
+        arguments.each do |argue|
           #binding.pry
             if arg_value == argue
              monkey_patch_array << arg_key
