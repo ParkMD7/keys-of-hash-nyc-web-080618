@@ -7,7 +7,7 @@ class Hash
     monkey_patch_array = []
     
     arguments.each do |arg|
-      #binding.pry
+      binding.pry
         self.each do |arg_key, arg_value|
           #binding.pry
             
