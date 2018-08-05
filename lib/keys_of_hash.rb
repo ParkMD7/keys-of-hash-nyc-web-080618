@@ -6,14 +6,10 @@ class Hash
   def keys_of(*arguments)
     monkey_patch_array = []
     
-    arguments.each do |arg|
+    self.each do |arg_key, arg_value|
       #binding.pry
-        self.each do |arg_key, arg_value|
-          #binding.pry
-            if arg_value == arg
-              monkey_patch_array << arg_key
-              monkey_patch_array
-            end
+        if arg_value == arg
+          monkey_patch_array << arg_key
         end
     end
   end
